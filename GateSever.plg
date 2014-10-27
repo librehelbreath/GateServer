@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GateSever - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Dianne\LOCALS~1\Temp\RSP195.tmp" with contents
+[
+/nologo /G5 /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/GateSever.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Documents and Settings\Dianne\Desktop\STfiles\Gate Server\Client.cpp"
+"C:\Documents and Settings\Dianne\Desktop\STfiles\Gate Server\GateCore.cpp"
+"C:\Documents and Settings\Dianne\Desktop\STfiles\Gate Server\PartyManager.cpp"
+"C:\Documents and Settings\Dianne\Desktop\STfiles\Gate Server\wmain.cpp"
+"C:\Documents and Settings\Dianne\Desktop\STfiles\Gate Server\XSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Dianne\LOCALS~1\Temp\RSP195.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Client.cpp
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.h(16) : warning C4005: 'FD_SETSIZE' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winsock.h(46) : see previous definition of 'FD_SETSIZE'
+GateCore.cpp
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.h(16) : warning C4005: 'FD_SETSIZE' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winsock.h(46) : see previous definition of 'FD_SETSIZE'
+PartyManager.cpp
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.h(16) : warning C4005: 'FD_SETSIZE' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winsock.h(46) : see previous definition of 'FD_SETSIZE'
+wmain.cpp
+c:\documents and settings\dianne\desktop\stfiles\gate server\winmain.h(2) : warning C4005: '_MT' : macro redefinition
+        unknown(0) : see previous definition of '_MT'
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.h(16) : warning C4005: 'FD_SETSIZE' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winsock.h(46) : see previous definition of 'FD_SETSIZE'
+XSocket.cpp
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(14) : warning C4101: 'cData' : unreferenced local variable
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(435) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(440) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(442) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(563) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\dianne\desktop\stfiles\gate server\xsocket.cpp(564) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+Creating temporary file "C:\DOCUME~1\Dianne\LOCALS~1\Temp\RSP196.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GateSever.pdb" /debug /machine:I386 /out:"Debug/GateSever.exe" /pdbtype:sept 
+".\Debug\Client.obj"
+".\Debug\GateCore.obj"
+".\Debug\PartyManager.obj"
+".\Debug\wmain.obj"
+".\Debug\XSocket.obj"
+".\Winmm.lib"
+".\Ws2_32.lib"
+".\WSOCK32.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\Dianne\LOCALS~1\Temp\RSP196.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/GateSever.bsc"  ".\Debug\Client.sbr" ".\Debug\GateCore.sbr" ".\Debug\PartyManager.sbr" ".\Debug\wmain.sbr" ".\Debug\XSocket.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GateSever.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>
