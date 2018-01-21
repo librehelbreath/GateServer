@@ -1,10 +1,10 @@
 
-#define DEF_INDEX4_MSGID			0
-#define DEF_INDEX2_MSGTYPE			4
+#define DEF_INDEX4_MSGID 0
+#define DEF_INDEX2_MSGTYPE 4
 
 /*
 #define DEF_INDEX2_LOCX				6
-#define DEF_INDEX2_LOCY				8	   
+#define DEF_INDEX2_LOCY				8
 #define DEF_INDEX2_OBJECTTYPE		10
 #define DEF_INDEX1_DIR				12
 #define DEF_INDEX2_APPEARANCE1		23
